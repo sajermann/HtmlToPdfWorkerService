@@ -28,6 +28,7 @@ namespace OpenHtmlToPdfWS
       var pdf = Pdf.From(html).Content();
       File.WriteAllBytes($"‪teste.pdf", pdf);
       Console.WriteLine("Hello World!");
+
     }
   }
 }
